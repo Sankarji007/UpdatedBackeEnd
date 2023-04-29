@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="javaproject:war exploded">
+    <output-path>C:/Program Files/Apache Software Foundation/Tomcat 9.0/webapps/Recipemanagement</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="javaproject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javaproject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="json-20220924" />
+          <element id="library" level="project" name="postgresql-9.1-901-1.jdbc4" />
+        </element>
+      </element>
+      <element id="library" level="project" name="postgresql-9.1-901-1.jdbc4" />
+    </root>
+  </artifact>
+</component>
